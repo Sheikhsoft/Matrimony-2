@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+      <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_24dp"
+            android:title="Update Profile" />
+        <!--   <item
+             android:id="@+id/nav_feeds"
+             android:icon="@drawable/search48"
+             android:title="Feeds" />
+
+         <item
+             android:id="@+id/nav_match"
+             android:icon="@drawable/ic_notification_24dp"
+             android:title="Find Match" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_24dp"
+            android:title="Update Profile" />-->
+    </group>
+
+    <item android:title="Other">
+        <menu>
+           <!-- <item
+                android:id="@+id/nav_about_us"
+                android:title="About us" />-->
+           <!-- <item
+                android:id="@+id/nav_privacy_policy"
+                android:title="Privacy policy" />-->
+        </menu>
+    </item>
+
+</menu>
